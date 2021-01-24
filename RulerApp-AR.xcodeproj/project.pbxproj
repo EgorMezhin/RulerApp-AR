@@ -13,6 +13,7 @@
 		D0D43F2225BCC2F00022C7C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D43F2025BCC2F00022C7C7 /* Main.storyboard */; };
 		D0D43F2425BCC2F50022C7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D43F2325BCC2F50022C7C7 /* Assets.xcassets */; };
 		D0D43F2725BCC2F50022C7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D43F2525BCC2F50022C7C7 /* LaunchScreen.storyboard */; };
+		D0EFAF1F25BDEA44009B1A48 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFAF1E25BDEA44009B1A48 /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D0D43F2325BCC2F50022C7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D43F2625BCC2F50022C7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D43F2825BCC2F50022C7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EFAF1E25BDEA44009B1A48 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D0D43F1A25BCC2F00022C7C7 /* AppDelegate.swift */,
 				D0D43F1E25BCC2F00022C7C7 /* ViewController.swift */,
+				D0EFAF1E25BDEA44009B1A48 /* AlertViewController.swift */,
 				D0D43F2025BCC2F00022C7C7 /* Main.storyboard */,
 				D0D43F2325BCC2F50022C7C7 /* Assets.xcassets */,
 				D0D43F1C25BCC2F00022C7C7 /* art.scnassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D43F1F25BCC2F00022C7C7 /* ViewController.swift in Sources */,
+				D0EFAF1F25BDEA44009B1A48 /* AlertViewController.swift in Sources */,
 				D0D43F1B25BCC2F00022C7C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
