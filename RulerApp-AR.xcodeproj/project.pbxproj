@@ -57,10 +57,10 @@
 			isa = PBXGroup;
 			children = (
 				D0D43F1A25BCC2F00022C7C7 /* AppDelegate.swift */,
-				D0D43F1C25BCC2F00022C7C7 /* art.scnassets */,
 				D0D43F1E25BCC2F00022C7C7 /* ViewController.swift */,
 				D0D43F2025BCC2F00022C7C7 /* Main.storyboard */,
 				D0D43F2325BCC2F50022C7C7 /* Assets.xcassets */,
+				D0D43F1C25BCC2F00022C7C7 /* art.scnassets */,
 				D0D43F2525BCC2F50022C7C7 /* LaunchScreen.storyboard */,
 				D0D43F2825BCC2F50022C7C7 /* Info.plist */,
 			);
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKJ7WX469T;
 				INFOPLIST_FILE = "RulerApp-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egormezhin.RulerApp-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKJ7WX469T;
 				INFOPLIST_FILE = "RulerApp-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egormezhin.RulerApp-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
